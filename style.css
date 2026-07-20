@@ -215,3 +215,35 @@ section p{
 }
 
 }
+/* Active menu */
+
+nav ul li a.active{
+
+color:#38bdf8;
+
+border-bottom:2px solid #38bdf8;
+
+padding-bottom:5px;
+
+}
+
+
+/* Fade animation */
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:all .8s ease;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
