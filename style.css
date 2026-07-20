@@ -264,3 +264,48 @@ transform:translateY(0);
     border-radius:15px;
     box-shadow:0 10px 25px rgba(0,0,0,.4);
 }
+.journey-card{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin:60px 0;
+    background:#172033;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.journey-image{
+    width:280px;
+    border-radius:15px;
+    object-fit:cover;
+}
+
+.journey-text{
+    flex:1;
+}
+
+.journey-text h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+.journey-text p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+@media(max-width:900px){
+
+.journey-card{
+    flex-direction:column;
+    text-align:center;
+}
+
+.journey-image{
+    width:100%;
+    max-width:350px;
+}
+
+}
