@@ -309,3 +309,83 @@ transform:translateY(0);
 }
 
 }
+.renewable-images{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-bottom:25px;
+}
+
+.renewable-photo{
+    width:280px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    transition:.3s;
+}
+
+.renewable-photo:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:900px){
+
+.renewable-images{
+    flex-direction:column;
+    align-items:center;
+}
+
+.renewable-photo{
+    width:100%;
+    max-width:350px;
+    height:auto;
+}
+
+}
+.graduation-images{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:30px;
+}
+
+.graduation-item{
+    text-align:center;
+}
+
+.graduation-photo{
+    width:280px;
+    height:350px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+    transition:.3s;
+}
+
+.graduation-photo:hover{
+    transform:scale(1.05);
+}
+
+.graduation-item h4{
+    margin-top:12px;
+    color:#38bdf8;
+    font-size:18px;
+}
+
+@media(max-width:900px){
+
+.graduation-images{
+    flex-direction:column;
+    align-items:center;
+}
+
+.graduation-photo{
+    width:100%;
+    max-width:350px;
+    height:auto;
+}
+
+}
