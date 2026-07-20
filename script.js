@@ -65,11 +65,7 @@ const observer = new IntersectionObserver((entries) => {
     threshold: 0.2
 });
 
-document.querySelectorAll("section").forEach(section => {
-
-    section.classList.add("hidden");
-
-    observer.observe(section);
+document.querySelectorAll('nav a').forEach(link => {
 
 });
 
