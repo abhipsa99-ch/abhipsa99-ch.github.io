@@ -247,3 +247,20 @@ opacity:1;
 transform:translateY(0);
 
 }
+.profile-photo{
+    width:250px;
+    border-radius:50%;
+    display:block;
+    margin:30px auto;
+    border:5px solid #38bdf8;
+    box-shadow:0 10px 25px rgba(0,0,0,.5);
+}
+
+.about-photo{
+    width:100%;
+    max-width:600px;
+    display:block;
+    margin:30px auto;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.4);
+}
