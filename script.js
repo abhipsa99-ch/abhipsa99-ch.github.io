@@ -75,4 +75,4 @@ const footer = document.querySelector("footer p");
 
 footer.innerHTML =
 "© " + new Date().getFullYear() +
-" Abhipsa Chakraborty | Renewable Energy Engineer";
+" Abhipsa Chakraborty | Renewable Energy Engineer | Biotechnology Engineer";
