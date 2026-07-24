@@ -275,7 +275,6 @@ transform:translateY(0);
     box-shadow: 0 10px 30px rgba(0,0,0,.35);
 }
     
-}
 .journey-image{
     width: 320px;
     flex-shrink: 0;
@@ -410,11 +409,4 @@ transform:translateY(0);
     color:#38bdf8;
     font-size:18px;
 }
-.renewable-images{
-    flex:0 0 560px;
-}
 
-.journey-text{
-    flex:1;
-    min-width:0;
-}
