@@ -375,13 +375,12 @@ transform:translateY(0);
     font-size:18px;
 }
 .thesis-image {
-    display: block;
-    max-width: 100%;
-    width: 500px;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width:280px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    transition:.3s;
 }
 
 @media(max-width:900px){
