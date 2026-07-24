@@ -378,6 +378,7 @@ transform:translateY(0);
 .thesis-image {
     width:280px;
     height:220px;
+   justify-content:center;
     object-fit:cover;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,.35);
@@ -409,6 +410,7 @@ transform:translateY(0);
 }
 
 .renewable-card{
+     display:block;
     background:#172033;
     padding:30px;
     border-radius:20px;
