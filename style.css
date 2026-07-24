@@ -318,12 +318,12 @@ transform:translateY(0);
 }
 
 .renewable-photo{
-    width:280px;
-    height:220px;
-    object-fit:cover;
-    border-radius:15px;
-    box-shadow:0 8px 20px rgba(0,0,0,.35);
-    transition:.3s;
+    width:250px;
+    border-radius:50%;
+    display:block;
+    margin:30px auto;
+    border:5px solid #38bdf8;
+    box-shadow:0 10px 25px rgba(0,0,0,.5);
 }
 
 .renewable-photo:hover{
