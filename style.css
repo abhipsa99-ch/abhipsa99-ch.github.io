@@ -408,3 +408,11 @@ transform:translateY(0);
     color:#38bdf8;
     font-size:18px;
 }
+.renewable-images{
+    flex:0 0 560px;
+}
+
+.journey-text{
+    flex:1;
+    min-width:0;
+}
