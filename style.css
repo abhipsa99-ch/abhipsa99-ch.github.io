@@ -321,7 +321,7 @@ transform:translateY(0);
     width:250px;
     border-radius:50%;
     display:block;
-    margin:30px auto;
+    margin:0 auto;
     border:5px solid #38bdf8;
     box-shadow:0 10px 25px rgba(0,0,0,.5);
 }
@@ -396,4 +396,19 @@ transform:translateY(0);
     height:auto;
 }
 
+}
+.renewable-images .graduation-item{
+    text-align:center;
+}
+
+.renewable-images h4{
+    margin-top:12px;
+    color:#38bdf8;
+    font-size:18px;
+}
+
+.renewable-photo{
+    height:250px;
+    object-fit:cover;
+    margin:0 auto;
 }
