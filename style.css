@@ -408,3 +408,21 @@ transform:translateY(0);
     font-size:18px;
 }
 
+.renewable-card{
+    background:#172033;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+    margin:60px 0;
+}
+
+.renewable-images{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:30px;
+}
+
+.renewable-card .journey-text{
+    width:100%;
+}
